@@ -9,12 +9,14 @@ layout: default
     {%- for post in site.posts -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-      <h3>
+      <div class="post-meta">{{ post.date | date: date_format }}</div>
+      {%- assign category = post.categories | join: " " -%}
+      <div class="post-category">{{ category }}/</div>
+      <h2>
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>
-      </h3>
+      </h2>
       {{ post.excerpt }}
     </li>
     {%- endfor -%}

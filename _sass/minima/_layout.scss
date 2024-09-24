@@ -210,9 +210,16 @@
   color: $grey-color;
 }
 
+.post-category {
+  font-style: italic;
+  color: $grey-color;
+  margin-top: 6px;
+  margin-bottom: -6px;
+}
+
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  @include relative-font-size(1.65);
 }
 
 
