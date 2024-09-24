@@ -8,16 +8,25 @@ layout: default
   <ul class="post-list">
     {%- for post in site.posts -%}
     <li>
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <div class="post-meta">{{ post.date | date: date_format }}</div>
-      {%- assign category = post.categories | join: " " -%}
-      <div class="post-category">{{ category }}/</div>
-      <h2>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h2>
-      {{ post.excerpt }}
+      <table>
+        <td>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <div class="post-meta">{{ post.date | date: date_format }}</div>
+          {%- assign category = post.categories | join: " " -%}
+          <div class="post-category">{{ category }}/</div>
+          <h2>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h2>
+          {{ post.excerpt }}
+        </td>
+        {%- if post.image -%}
+          <td>
+            <img src="images/{{post.image}}">
+          </td>
+        {%- endif -%}
+      </table>
     </li>
     {%- endfor -%}
   </ul>

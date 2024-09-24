@@ -196,6 +196,15 @@
     padding-bottom: $spacing-unit * 0.5;
     margin-bottom: $spacing-unit * 0.5;
     border-bottom: 1px solid $grey-color-light;
+
+    > table, td {
+      border: 0;
+
+      >img {
+        max-height: 250px;
+        float: right;
+      }
+    }
   }
 
   > li:nth-last-child(1) {
