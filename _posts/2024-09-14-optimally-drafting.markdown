@@ -5,6 +5,8 @@ date:   2024-09-14
 categories: league-of-legends
 excerpt: Mathematically optimally drafting your champion
 ---
+**NOTE**: *This post currently incomplete.*
+
 ## Intro
 
 The "draft" gamemode in *League of Legends* features a pre-game champion-selection step, in which the two teams "pick" (choose to play) and "ban" (remove from the choosable champion pool), with each player in the game having the opportunity to make one ban and one pick.
