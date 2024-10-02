@@ -2,11 +2,17 @@
     display: inline-block;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    vertical-align: middle;
 
     width: 32px;
     height: 32px;
 
     background-image: url('https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/-1.png');
+}
+
+.lol-icon-big {
+    width: 48px;
+    height: 48px;
 }
 
 .lol-annie {
