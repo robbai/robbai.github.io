@@ -18,6 +18,9 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
+    <table class="toc">
+      <td>{% include toc.html html=content %}</td>
+    </table>
     {{ content }}
   </div>
 
