@@ -4,6 +4,7 @@ title:  Optimally drafting
 date:   2024-09-14
 categories: league-of-legends
 excerpt: Mathematically optimally drafting your champion
+image: optimally-drafting.png
 ---
 
 ## Intro
