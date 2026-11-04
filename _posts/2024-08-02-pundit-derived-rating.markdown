@@ -37,7 +37,7 @@ This results in a dataset of:
 <br/>
 
 Individual rankings data:
-<details>
+<details markdown="1">
 <summary>2021-22 Winter Major</summary>
 
 ```json
@@ -67,7 +67,7 @@ Individual rankings data:
 ```
 </details>
 
-<details>
+<details markdown="1">
 <summary>2021-22 World Championship</summary>
 
 ```json
@@ -110,7 +110,7 @@ Individual rankings data:
 ```
 </details>
 
-<details>
+<details markdown="1">
 <summary>2024 Major 2</summary>
 
 ```json
@@ -269,7 +269,7 @@ The final rating function is a linear sum of:
 ### Userscript
 
 I made a userscript for use on _Ballchasing.com_, showing the ratings of a player in a replay group:
-<details>
+<details markdown="1">
 <summary>Userscript</summary>
 
 ```js
