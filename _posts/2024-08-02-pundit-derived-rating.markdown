@@ -16,14 +16,14 @@ The aim was to find a way to rate players that may more closely pass the "eye-te
 
 The data sources use consist from 3 international events, using the player ranking posted by _JohnnyBoi\_i_ following the events:
 * 2021-22 Winter Major
-  * https://www.youtube.com/watch?v=GOOMcQLaFFE
-  * https://ballchasing.com/group/main-event-82yslpanet
+  * [https://www.youtube.com/watch?v=GOOMcQLaFFE]
+  * [https://ballchasing.com/group/main-event-82yslpanet]
 * 2021-22 World Championship
-  * https://www.youtube.com/watch?v=9wNMjk3Eqsw
-  * https://ballchasing.com/group/world-championship-e2fj8jv44a
+  * [https://www.youtube.com/watch?v=9wNMjk3Eqsw]
+  * [https://ballchasing.com/group/]world-championship-e2fj8jv44a
 * 2024 Major 2
-  * https://www.youtube.com/watch?v=km-xMCEkF3I
-  * https://ballchasing.com/group/lan-nu92kpr2hf
+  * [https://www.youtube.com/watch?v=km-xMCEkF3I]
+  * [https://ballchasing.com/group/lan-nu92kpr2hf]
 
 <br/>
 
@@ -404,5 +404,6 @@ I made a userscript for use on _Ballchasing.com_, showing the ratings of a playe
 <br/>
 
 Example from the 2026 World Championship:
-https://ballchasing.com/group/world-championship-bdh552n3l3/players-stats
+[https://ballchasing.com/group/world-championship-bdh552n3l3/players-stats]
+<br/>
 <img src="{{ site.baseurl }}/images/rlcs-2026-ratings.png"/>
