@@ -16,16 +16,14 @@ The aim was to find a way to rate players that may more closely pass the "eye-te
 
 The data sources use consist from 3 international events, using the player ranking posted by _JohnnyBoi\_i_ following the events:
 * 2021-22 Winter Major
-  * [https://www.youtube.com/watch?v=GOOMcQLaFFE](YouTube)
-  * [https://ballchasing.com/group/main-event-82yslpanet](Ballchasing)
+  * [YouTube](https://www.youtube.com/watch?v=GOOMcQLaFFE)
+  * [Ballchasing](https://ballchasing.com/group/main-event-82yslpanet)
 * 2021-22 World Championship
-  * [https://www.youtube.com/watch?v=9wNMjk3Eqsw](YouTube)
-  * [https://ballchasing.com/group/world-championship-e2fj8jv44a](Ballchasing)
+  * [YouTube](https://www.youtube.com/watch?v=9wNMjk3Eqsw)
+  * [Ballchasing](https://ballchasing.com/group/world-championship-e2fj8jv44a)
 * 2024 Major 2
-  * [https://www.youtube.com/watch?v=km-xMCEkF3I](YouTube)
-  * [https://ballchasing.com/group/lan-nu92kpr2hf](Ballchasing)
-
-<br/>
+  * [YouTube](https://www.youtube.com/watch?v=km-xMCEkF3I)
+  * [Ballchasing](https://ballchasing.com/group/lan-nu92kpr2hf)
 
 This results in a dataset of:
 * **3** events
@@ -33,8 +31,6 @@ This results in a dataset of:
   * 6 unique pundits: _JohnnyBoi\_i_, _TBates_, _CJCJ_, _Roll Dizz_, _yumi\_cheeseman_, _Dazerin_
 * **319** player-placements
   * 47 unique players
-
-<br/>
 
 Individual rankings data:
 <details markdown="1">
@@ -401,9 +397,7 @@ I made a userscript for use on _Ballchasing.com_, showing the ratings of a playe
 ```
 </details>
 
-<br/>
-
 Example from the 2026 World Championship:
-[https://ballchasing.com/group/world-championship-bdh552n3l3/players-stats](Ballchasing)
-<br/>
+
+[Ballchasing](https://ballchasing.com/group/world-championship-bdh552n3l3/players-stats)
 <img src="{{ site.baseurl }}/images/rlcs-2026-ratings.png"/>
